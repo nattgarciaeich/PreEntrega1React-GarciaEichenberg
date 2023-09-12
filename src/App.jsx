@@ -7,7 +7,7 @@ function App() {
   return (
       <div className="fondo">  
         <NavBar/>
-        <ItemListContainer />
+        <ItemListContainer greeting = "Bienvenidos a mi primer proyecto con React JS" />
     </div>
   )
 }

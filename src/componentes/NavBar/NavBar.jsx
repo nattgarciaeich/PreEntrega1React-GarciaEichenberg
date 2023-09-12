@@ -1,6 +1,6 @@
 import React from 'react'
 import "./NavBar.css"
-import CardWidget from './CardWidget'
+import CartWidget from '../CartWidget/CartWidget'
 
 const NavBar = () => {
   return (
@@ -24,7 +24,7 @@ const NavBar = () => {
           </ul>
         </div>
 
-        <CardWidget/>
+        <CartWidget/>
 
       </div>    
     </nav>

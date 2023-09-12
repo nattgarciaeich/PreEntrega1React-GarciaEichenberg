@@ -1,7 +1,7 @@
 import React from 'react'
 import {BiCart} from 'react-icons/bi'
 
-const CardWidget = () => {
+const CartWidget = () => {
     return(
         <div>
             <BiCart/> <span>0</span>
@@ -10,4 +10,4 @@ const CardWidget = () => {
     )
 }
 
-export default CardWidget
+export default CartWidget
