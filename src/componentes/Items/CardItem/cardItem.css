@@ -1,0 +1,39 @@
+.cuerpo-card{
+    width: 100%;
+    height: 600px;
+    margin: 20px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+.card-body{
+    height: 180px;
+}
+
+.card-title{
+    height: 30%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-btn{
+    margin-bottom: auto;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-btn {
+    margin-bottom: auto;
+  }
